@@ -59,6 +59,11 @@ const handleRegister = async () => {
   <router-view>
     <div class="page page-center">
       <div class="container container-tight py-4">
+        <div class="text-center mb-4">
+          <img src="https://javis.co.id/assets/assets/img/javis.png" width="100" 
+     height="100" alt="javis">
+         <p class="mt-2">PT Javis Teknologi Albarokah</p>
+        </div>
         <form class="card card-md" @submit.prevent="handleRegister">
           <div class="card-body">
             <h2 class="h2 text-center mb-4">Sign Up</h2>

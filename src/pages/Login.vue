@@ -95,7 +95,13 @@ const startCountdown = () => {
       <div class="container container-normal py-4">
         <div class="row align-items-center g-4">
           <div class="col-lg">
+            
             <div class="container-tight">
+              <div class="text-center mb-4">
+          <img src="https://javis.co.id/assets/assets/img/javis.png" width="100" 
+     height="100" alt="javis">
+         <p class="mt-2">PT Javis Teknologi Albarokah</p>
+        </div>
               <div class="card card-md">
                 <div class="card-body">
                   <h2 class="h2 text-center mb-4">Sign In</h2>
