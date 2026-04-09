@@ -3,6 +3,7 @@ import { onMounted, ref } from "vue";
 import api from "../services/api";
 import Swal from "sweetalert2";
 import { useTheme } from "@/composables/useTheme";
+import Footer from "@/components/Footer.vue";
 const { theme, applyTheme } = useTheme();
 
 const user = ref(null);
@@ -160,36 +161,30 @@ const handleLogout = async () => {
           </div>
         </div>
       </div>
-      <footer class="footer footer-transparent d-print-none">
-        <div class="container-xl">
-          <div class="row text-center align-items-start">
-            <div class="col-12 col-lg-auto mt-3 mt-lg-0">
-              <ul class="list-inline list-inline-dots mb-0">
-                <li class="list-inline-item">
-                  Copyright © 2026
-                  <a href="." class="link-secondary">Khafid</a>. All rights
-                  reserved.
-                </li>
-                <li class="list-inline-item">
-                  <a
-                    href="./changelog.html"
-                    class="link-secondary"
-                    rel="noopener"
-                  >
-                    v1.0.0
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   </router-view>
 </template>
+
+<style>
+html, body {
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body {
+  flex: 1;
+}
+</style>
 
 <script>
 export default {
   name: "Dashboard",
 };
+
 </script>
