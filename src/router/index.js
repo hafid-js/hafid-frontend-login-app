@@ -7,6 +7,16 @@ import api from "../services/api";
 
 const routes = [
   {
+    path: "/",
+    redirect: "/dashboard",
+  },
+  {
+    path: "/dashboard",
+    name: "Dashboard",
+    component: Dashboard,
+    meta: { requiresAuth: true },
+  },
+  {
     path: "/dashboard",
     name: "Dashboard",
     component: Dashboard,

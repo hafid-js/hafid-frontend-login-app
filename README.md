@@ -37,24 +37,6 @@ http://localhost:5173
 
 ---
 
-## Konfigurasi API
-
-Pastikan base URL mengarah ke backend Laravel, contoh:
-
-```js
-// services/api.js
-import axios from "axios";
-
-const api = axios.create({
-  baseURL: "http://127.0.0.1:8000/api",
-  withCredentials: true
-});
-
-export default api;
-```
-
----
-
 ## Fitur
 
 * Register
@@ -83,7 +65,6 @@ export default api;
 ## Catatan
 
 * Project ini menggunakan HttpOnly Cookie, sehingga token tidak bisa diakses dari JavaScript
-* Pastikan `withCredentials: true` di Axios agar cookie ikut terkirim
 * Backend dan frontend harus menggunakan domain yang sama (misalnya 127.0.0.1)
 
 ---
