@@ -98,7 +98,7 @@ http://localhost:5173
 
 <img width="1680" height="1050" alt="Tangkapan Layar 2026-04-09 pukul 10 41 50 PM" src="https://github.com/user-attachments/assets/e91608fa-b934-4d9c-bf71-6b7c06f7b941" />
 
-<img width="1680" height="1050" alt="Tangkapan Layar 2026-04-09 pukul 10 42 39 PM" src="https://github.com/user-attachments/assets/8e80122b-958c-4961-a15d-6ae00a2bebc9" />
+<img width="1680" height="1050" alt="Tangkapan Layar 2026-04-10 pukul 6 24 37 AM" src="https://github.com/user-attachments/assets/18e76ee4-726a-4e62-b656-2a8ec3789823" />
 
 <img width="1680" height="1050" alt="Tangkapan Layar 2026-04-09 pukul 10 42 48 PM" src="https://github.com/user-attachments/assets/39b72979-561a-4791-86ce-3594b7720312" />
 
